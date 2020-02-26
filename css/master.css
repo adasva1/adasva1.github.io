@@ -34,6 +34,7 @@ footer{
 }
 
 
+
 #mainwrapper{
   display:flex;
 }
@@ -42,4 +43,37 @@ footer{
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+#boxwrapper{
+  height: 50%;
+  width: 100%;
+  background-color: grey;
+  display:flex;
+}
+
+#bottomcenter{
+  height:50%;
+  width:100%;
+  background-color: grey;
+
+}
+#boxleft{
+  height:100%;
+  width:50%;
+  background-color: red;
+}
+#boxright{
+  height:100%;
+  width:50%;
+  background-color: black;
+}
+@@media only screen and (max-width: 600px) {
+  #mainwrapper{display flex}
+
+}
+.btn{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
 }
