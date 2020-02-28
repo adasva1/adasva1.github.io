@@ -1,36 +1,39 @@
 h1{
-  background-color: green
+  font-family: cursive;
 }
 
 header{
-  background-color: blue;
-  height: 100px;
-  width: 500px;
+  background-color: lightgrey;
+  height: 50px;
+  width: 100%;
+  text-align: center;
 }
 
 nav{
-  background-color: yellow;
-  height: 50px;
-  width: 500px;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  word-spacing: 10px;
 
 
 }
 main{
-  background-color: red;
-  height:200px;
-  width:400px;
+  background-color: white;
+  height:400px;
+  width:70%;
 }
 
 aside{
-  background-color: pink;
+  background-color: white;
   height: 200px;
-  width: 100px;
+  width: 30%;
 }
 
 footer{
-  background-color: orange;
-  height: 100px;
-  width: 500px;
+  background-color: lightgrey;
+  height: 50px;
+  width: 100%;
 }
 
 
@@ -40,7 +43,7 @@ footer{
 }
 
 #wrapper{
-  width: 500px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,7 +76,30 @@ footer{
 }
 .btn{
   cursor: pointer;
+
 }
 a{
   text-decoration: none;
+}
+p{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.underrubirk{
+  font-weight: bold;
+  text-decoration:underline;
+  font-size: 19px;
+}
+
+.btn:hover {
+  text-decoration: black;
+  color: #000000
+  border: 5px;
+
+}
+.btn{
+  border: none;
+  padding: 10px 10px;
+  background-color: #C0C0C0
 }
