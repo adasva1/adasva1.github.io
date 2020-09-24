@@ -47,7 +47,7 @@ aside{
     "box3 box4";
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1000px) {
 
 aside{
   top:0;
